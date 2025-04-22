@@ -1,6 +1,7 @@
 ---
 name: Setup Server Foundation Repos
 description: Setup the server foundation repos.
+example: "egent: setup server foundation repos, github username: zxue"
 parameters:
   github_username:
     description: Your github username

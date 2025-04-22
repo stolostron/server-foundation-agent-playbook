@@ -1,6 +1,7 @@
 ---
 name: Tiny Refactor
 description: Refactor the code of the specified repo.
+example: "egent: tiny refactor the import-controller"
 parameters:
   repo_name:
     description: Name of the repo to refactor

@@ -1,6 +1,7 @@
 ---
 name: Upgrade Hive API
 description: Upgrade the Hive API of the specified repos to the latest version.
+example: "egent: upgrade hive api in train 27"
 parameters:
   train_number:
     description: Train number
