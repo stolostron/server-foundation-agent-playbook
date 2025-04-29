@@ -39,3 +39,9 @@ If you need to create a new branch, you can use the following command:
 ```bash
 git checkout -b <new-branch>
 ```
+
+# Get current github user name
+
+```bash
+git config --get user.name
+```

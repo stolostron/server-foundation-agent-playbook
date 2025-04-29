@@ -17,6 +17,7 @@ When we mentioned the "server-foundation repos", it means the repos in the table
 | managed-serviceaccount           |
 | clusterlifecycle-state-metrics   |
 | klusterlet-addon-controller      |
+| cluster-lifecycle-api            |
 
 The `cluster-proxy` and `cluster-proxy-addon` are 2 different repos, please don't mix them up.
 
