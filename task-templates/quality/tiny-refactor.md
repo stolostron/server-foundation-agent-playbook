@@ -1,7 +1,6 @@
 ---
-name: Tiny Refactor
 description: Refactor the code of the specified repo.
-example: "egent: tiny refactor the import-controller"
+example: "egent_start: tiny refactor the import-controller"
 parameters:
   repo_name:
     description: Name of the repo to refactor
@@ -9,7 +8,6 @@ dependencies:
   - knowledge/code/repos.md
   - knowledge/tools/git.md
   - knowledge/tools/github.md
-  - knowledge/tools/noti.md
 ---
 
 I want to continuously improve the code quality of the repository {{repo_name}} by making small changes each time, following the concept of "tiny refactor".

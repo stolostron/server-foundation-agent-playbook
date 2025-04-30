@@ -1,5 +1,4 @@
 ---
-name: Repos
 description: This part of content includes everything about github repos of server foundation squad.
 ---
 

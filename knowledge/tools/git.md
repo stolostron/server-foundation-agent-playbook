@@ -1,5 +1,4 @@
 ---
-name: Git
 description: This part of content includes everything about how to use git in the egent.
 ---
 

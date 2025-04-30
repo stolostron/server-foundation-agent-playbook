@@ -1,7 +1,6 @@
 ---
-name: Server Foundation Error Log Collecting
 description: Collect the error logs of the specified components.
-example: "egent: collect import-controller err log, kubeconfig path ~/Downloads/server-foundation-sno-lite-rhrhr-kubeconfig.yaml"
+example: "egent_start: collect import-controller err log, kubeconfig path ~/Downloads/server-foundation-sno-lite-rhrhr-kubeconfig.yaml"
 parameters:
   components:
     description: Name of the components to collect the error logs

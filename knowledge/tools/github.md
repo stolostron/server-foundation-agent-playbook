@@ -1,5 +1,4 @@
 ---
-name: Github
 description: This part of content includes everything about how to use github in the egent.
 ---
 

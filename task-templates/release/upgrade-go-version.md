@@ -1,7 +1,6 @@
 ---
-name: Upgrade Go Version
 description: Upgrade the Go version of the specified repos to the target version.
-example: "egent: upgrade go version to 1.23 for cluster-proxy and ocm"
+example: "egent_start: upgrade go version to 1.23 for cluster-proxy and ocm"
 parameters:
   target_go_version:
     description: Target Go version
@@ -11,7 +10,6 @@ dependencies:
   - knowledge/code/repos.md
   - knowledge/tools/git.md
   - knowledge/tools/github.md
-  - knowledge/tools/noti.md
 ---
 
 The goal is to upgrade the Go version of the specified repos to the target version.

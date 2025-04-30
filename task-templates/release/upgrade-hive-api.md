@@ -1,7 +1,6 @@
 ---
-name: Upgrade Hive API
 description: Upgrade the Hive API of the specified repos to the latest version.
-example: "egent: upgrade hive api in train 27"
+example: "egent_start: upgrade hive api in train 27"
 parameters:
   train_number:
     description: Train number
@@ -9,7 +8,6 @@ dependencies:
   - knowledge/code/repos.md
   - knowledge/tools/git.md
   - knowledge/tools/github.md
-  - knowledge/tools/noti.md
 ---
 
 The repos we need to operate on:

@@ -1,6 +1,6 @@
 ---
-name: Sync Latest KlusterletConfig CRD to Backplane Operator
 description: Sync the latest KlusterletConfig CRD to the Backplane Operator
+example: "egent_start: sync klusterletconfig crd to backplane operator"
 dependencies:
   - knowledge/tools/git.md
 ---

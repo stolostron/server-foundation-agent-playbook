@@ -1,5 +1,4 @@
 ---
-name: Server Foundation Deployments
 description: This part of content includes everything about server foundaiton deployments(components).
 ---
 

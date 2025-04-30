@@ -1,7 +1,6 @@
 ---
-name: Bump up Dependencies
 description: Bump up the dependencies of the specified package to the target version.
-example: "egent: bump up dependencies of the package, package name: golang.org/x/exp, target version: v0.13.1, repo list:import-controler, cluster-proxy, ocm, msa"
+example: "egent_start: bump up dependencies of the package, package name: golang.org/x/exp, target version: v0.13.1, repo list:import-controler, cluster-proxy, ocm, msa"
 parameters:
   package_name:
     description: Name of the package to bump
