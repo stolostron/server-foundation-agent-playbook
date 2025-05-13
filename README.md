@@ -12,7 +12,7 @@ Add the following mcp server to your code agent tool:
       "args": [
         "-y",
         "egent@latest",
-        "--context-repo",
+        "--playbook-repo",
         "git@github.com:stolostron/server-foundation-agent-playbook.git"
       ]
     }
@@ -31,10 +31,10 @@ You will see the agent creates the `workplace` directory, and clone the repos yo
 # Contributing
 
 ```shell
-git clone git@github.com:stolostron/server-foundation-dev-context.git
+git clone git@github.com:stolostron/server-foundation-agent-playbook.git
 ```
 
-Use `--context-path` to point to the path of the server-foundation-dev-context repo.
+Use `--context-path` to point to the path of the server-foundation-agent-playbook repo.
 
 ```json
 {
@@ -44,7 +44,7 @@ Use `--context-path` to point to the path of the server-foundation-dev-context r
       "args": [
         "-y",
         "egent@latest",
-        "--context-path",
+        "--playbook-path",
         "<the path to the server-foundation-agent-playbook repo>"
       ]
     }
