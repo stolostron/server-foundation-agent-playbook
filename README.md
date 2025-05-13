@@ -13,7 +13,7 @@ Add the following mcp server to your code agent tool:
         "-y",
         "egent@latest",
         "--context-repo",
-        "git@github.com:stolostron/server-foundation-dev-context.git"
+        "git@github.com:stolostron/server-foundation-agent-playbook.git"
       ]
     }
   }
@@ -45,7 +45,7 @@ Use `--context-path` to point to the path of the server-foundation-dev-context r
         "-y",
         "egent@latest",
         "--context-path",
-        "<the path to the server-foundation-dev-context repo>"
+        "<the path to the server-foundation-agent-playbook repo>"
       ]
     }
   }
